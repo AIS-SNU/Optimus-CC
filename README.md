@@ -12,7 +12,7 @@ For accuracy check of zero-shot (TABLE 3 and TABLE 4), the process is quite comp
 Other experiments (not main evaluation) for figures can be run by changing options in speedup check scripts.
 
 Dataset making is explained in `Dataset Preprocessing`, however, the process is too complicated.
-Therefore, we provide the preprocessed binary dataset for AD/AE of ASPLOS'23.
+Therefore, we provide the preprocessed binary dataset for AE of ASPLOS'23.
 
 (Link: )
 
