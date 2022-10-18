@@ -3,7 +3,7 @@
 
 Our codes are based on Megatron-LM (https://github.com/NVIDIA/Megatron-LM, v2.5) and PowerSGD (https://github.com/epfml/powersgd).
 
-## AD/AE
+## Artifact Evaluation
 This repository is for AE (Artifact Evaluation) process of ASPLOS'23.
 
 In ASPLOS23/ folder, scripts for pretraining (TABLE 2), speedup check (TABLE 2, Fig. 10), memory consumption check (Fig. 12), comp/decomp throughput check (Fig. 14), and cosine similarity check (Fig. 11) are available.
