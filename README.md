@@ -1,8 +1,6 @@
 # Optimus-CC
 [ASPLOS'23] Optimus-CC: Efficient Large NLP Model Training with 3D Parallelism Aware Communication Compression (Accepted, to appear)
 
-[![DOI](https://zenodo.org/badge/553339236.svg)](https://zenodo.org/badge/latestdoi/553339236)
-
 Our codes are based on Megatron-LM (https://github.com/NVIDIA/Megatron-LM, v2.5) and PowerSGD (https://github.com/epfml/powersgd).
 
 ## Artifact Evaluation
@@ -13,10 +11,7 @@ We give a detailed guideline for these evaluations in `Evaluation Reproducing` s
 For accuracy check of zero-shot (TABLE 3 and TABLE 4), the process is quite complex, so please refer to `Zero-Shot Task Running` section. Note that training script for TABLE 4 is available in TABLE 2 training script folder.
 Other experiments (not main evaluation) for figures can be run by changing options in speedup check scripts.
 
-Dataset making is explained in `Dataset Preprocessing`, however, the process is too complicated.
-Therefore, we provide the preprocessed binary dataset for AE of ASPLOS'23.
-
-(Link: )
+Dataset making is explained in `Dataset Preprocessing`. Make the pretraining dataset based on the guideline and use the binarized dataset.
 
 For detailed arguments and settings, please refer to below explanations.
 
