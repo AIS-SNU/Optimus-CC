@@ -88,8 +88,8 @@ Replace `{some_argument}` with proper values.
   - This script checks the averages and the cosine similarity of errors and intermediate activations.
 - Fig. 12: `ASPLOS23/fig12/*.sh`
   - This script shows the maximum memory allocation of baseline, CB, and CB+LEP.
-- Fig. 14: `ASPLOS23/fig14/*.sh`
-  - Run compression and decompression throughput check for GPT-2.5B, 8.3B and 175B.
+- Fig. 14: `ASPLOS23/fig14/*.md`
+  - Instruction for compression and decompression throughput check of GPT-2.5B, 8.3B and 175B.
 
 ## Zero-Shot Task Running
 
