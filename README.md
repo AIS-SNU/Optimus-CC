@@ -1,4 +1,4 @@
-# Optimus-CC [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7220824.svg)](https://doi.org/10.5281/zenodo.7220824)
+# Optimus-CC [![DOI](https://zenodo.org/badge/553339236.svg)](https://zenodo.org/badge/latestdoi/553339236)
 [ASPLOS'23] Optimus-CC: Efficient Large NLP Model Training with 3D Parallelism Aware Communication Compression (Accepted, to appear)
 
 Our codes are based on Megatron-LM (https://github.com/NVIDIA/Megatron-LM, v2.5) and PowerSGD (https://github.com/epfml/powersgd).
