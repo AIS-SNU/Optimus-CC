@@ -15,6 +15,10 @@ Dataset making is explained in `Dataset Preprocessing`. Make the pretraining dat
 
 For detailed arguments and settings, please refer to below explanations.
 
+## Licenses
+For the baseline codes (Megatron-LM and PowerSGD), please follow their licenses and guidelines.
+For additional codes, please follow the MIT license.
+
 ## Environment
 
 We conducted pretraining experiments of 2.5B and 8.3B GPT models on a large data center cluster with NVIDIA A100 GPUs. Our GPU Box (Node) interconnects with 200Gbps Infiniband.
