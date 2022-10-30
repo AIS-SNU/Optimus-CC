@@ -399,7 +399,7 @@ def _add_grad_comp_args(parser):
     group.add_argument('--inter_acti_comp_rank',
                         type=int, default=12,
                         help='PowerSGD Compression Rank (default=12)')
-    group.add_argument('--inter_acti_comp_warm_up', type=float, default=0.1,
+    group.add_argument('--inter_acti_comp_warm_up', type=float, default=0.0,
                         help='PwerSGD warm up period for accuracy gain.')
 
     # inter comm gradient compression
@@ -412,7 +412,7 @@ def _add_grad_comp_args(parser):
     group.add_argument('--inter_grad_comp_rank',
                         type=int, default=12,
                         help='PowerSGD Compression Rank (default=12)')
-    group.add_argument('--inter_grad_comp_warm_up', type=float, default=0.1,
+    group.add_argument('--inter_grad_comp_warm_up', type=float, default=0.0,
                         help='PwerSGD warm up period for accuracy gain.')
     group.add_argument('--inter_grad_comp_epilogue_only',
                        dest='inter_grad_comp_epilogue_only', action='store_true', help='use grad comp algorithm for inter box only in epilogue.')

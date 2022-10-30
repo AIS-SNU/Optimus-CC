@@ -11,6 +11,8 @@ We give a detailed guideline for these evaluations in `Evaluation Reproducing` s
 For accuracy check of zero-shot (TABLE 3 and TABLE 4), the process is quite complex, so please refer to `Zero-Shot Task Running` section. Note that training script for TABLE 4 is available in TABLE 2 training script folder.
 Other experiments (not main evaluation) for figures can be run by changing options in speedup check scripts.
 
+**UPDATE**: GPT-335M version scripts are added to `ASPLOS23/fig10/` directory to test functionality in a small clutster.
+
 Dataset making is explained in `Dataset Preprocessing`. Make the pretraining dataset based on the guideline and use the binarized dataset.
 
 For detailed arguments and settings, please refer to below explanations.
