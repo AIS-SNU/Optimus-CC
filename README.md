@@ -3,6 +3,8 @@
 
 Our codes are based on Megatron-LM (https://github.com/NVIDIA/Megatron-LM, v2.5) and PowerSGD (https://github.com/epfml/powersgd).
 
+**UPDATE**: We are working on adopting Opt-CC on new Megatron-LM v3.0 with new PowerSGD code, which is faster :)
+
 ## Artifact Evaluation
 This repository is for AE (Artifact Evaluation) process of ASPLOS'23.
 
