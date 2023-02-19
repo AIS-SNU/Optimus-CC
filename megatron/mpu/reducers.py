@@ -448,7 +448,7 @@ class PowerSGDReducer(Reducer):
                     # use prev_Q
                     # do not need orthogonalize if properly _set_random...ed!
                     # megatron-lm need nan to zero
-                    orthogonalize(q)
+                    #orthogonalize(q)
                     # q.nan_to_num_(nan=1e-4)
                     pass
                 else:
