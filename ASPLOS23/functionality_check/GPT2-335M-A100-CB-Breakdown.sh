@@ -47,7 +47,7 @@ TOTAL_ARGS="--num-layers 24 \
             --pipeline-model-parallel-size $PIPELINE_MP_SIZE \
             --experiment_name GPT2-335M-CB-Breakdown \
             --DDP-impl local \
-            --inter_grad_comp \   
+            --inter_grad_comp \
             --inter_grad_comp_rank 16 \
             --inter_grad_comp_epilogue_only \
             --use_error_feedback \
