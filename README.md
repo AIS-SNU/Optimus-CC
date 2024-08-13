@@ -1,9 +1,9 @@
-# Optimus-CC [![DOI](https://zenodo.org/badge/553339236.svg)](https://zenodo.org/badge/latestdoi/553339236)
+# [ASPLOS'23] Optimus-CC:Efficient Large NLP Model Training with 3D Parallelism Aware Communication Compression [![DOI](https://zenodo.org/badge/553339236.svg)](https://zenodo.org/badge/latestdoi/553339236)
 [ASPLOS'23] Optimus-CC: Efficient Large NLP Model Training with 3D Parallelism Aware Communication Compression ([Paper](https://dl.acm.org/doi/10.1145/3575693.3575712))
 
 Our codes are based on Megatron-LM (https://github.com/NVIDIA/Megatron-LM, v2.5) and PowerSGD (https://github.com/epfml/powersgd).
 
-**UPDATE**: We are working on adopting Opt-CC on new Megatron-LM v3.0 with new PowerSGD code, which is faster :)
+**UPDATE**: New Megatron-LM v3.0 with new PowerSGD code would provide much speedup, so we are working on it :)
 
 ## Artifact Evaluation
 This repository is for AE (Artifact Evaluation) process of ASPLOS'23.
